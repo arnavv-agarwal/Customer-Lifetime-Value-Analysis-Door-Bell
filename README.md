@@ -19,3 +19,5 @@ The Door Bell CLV Analyzer is a Python project aimed at assessing the customer l
 - Jupyter Notebook
 - Pandas
 - Matplotlib
+
+https://github.com/arnavv-agarwal/Customer-Lifetime-Value-Analysis-Door-Bell/blob/2b91db72426668f28f60f66437a2263ff6aa7f89/door_bell_clv.ipynb
