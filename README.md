@@ -20,3 +20,6 @@ The Door Bell CLV Analyzer is a Python project aimed at assessing the customer l
 - Pandas
 - Matplotlib
 
+## Data:
+The data used in this project was fabricated for the sake of analysis. It includes annual churn rates for autopay and non-autopay customers over an 8-year period.
+
