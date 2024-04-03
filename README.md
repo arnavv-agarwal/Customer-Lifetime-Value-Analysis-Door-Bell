@@ -1,6 +1,3 @@
-# Customer-Lifetime-Value-Analysis-Door-Bell
-
-
 ## Overview:
 The Door Bell CLV Analyzer is a Python project aimed at assessing the customer lifetime value (CLV) for Door Bell, Inc. The project focuses on understanding the impact of autopay on customer retention and provides insights crucial for strategic marketing decisions.
 
