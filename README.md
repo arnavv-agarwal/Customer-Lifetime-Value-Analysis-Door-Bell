@@ -25,5 +25,11 @@ The data used in this project was fabricated for the sake of analysis. It includ
 
 ## Assumptions
 ```python 
-your_code = do_some_stuff
+monthly_revenue = 40
+annual_growth = 0.03
+annual_discount_rate = 0.1
+monthly_discount_rate = (1+annual_discount_rate)**(1/12)-1
+cost_service = 0.15*monthly_revenue
+marketing_cost = 0.05*monthly_revenue
+nr_years = 8
 ```
