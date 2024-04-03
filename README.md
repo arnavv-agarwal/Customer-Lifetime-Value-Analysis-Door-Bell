@@ -50,4 +50,4 @@ for i in range(len(expected_profit_ap)):
 pv_expected_profit_ap = pv_expected_profit_ap# present value of expected profits
 clv_ap = np.cumsum(pv_expected_profit_ap)
 ```
-CLV for AutoPay Users: 1803.660201 | CLV for Non-AutoPay Users: 1553.722933
+CLV for AutoPay Users: **1803.660201** | CLV for Non-AutoPay Users: **1553.722933**
