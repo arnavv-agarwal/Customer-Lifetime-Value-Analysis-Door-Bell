@@ -82,7 +82,7 @@ print(f"Maxium amount to spend on autopay incentives is {max_pay.round(2)}")
 ```
 Maxium amount to spend on autopay incentives is $249.94
 
-> [!IMPORTANT]  
+[!IMPORTANT]  
 ## Suggested marketing actions
 
 - Door Bell can offer free 30 USD worth of days in its subscription for non-autopay customers who switch to autopay cutomers. For every year they complete under the autopay contract, they will recieve suitable number of days free corresponding to the dollar value of 30 USD. This strategy will help us in convincing the non-autopay customers to switch to autopay customers and also help us in retaining them. The total cost for this marketing campaign will come around to be (30 X 8) = 240 USD, which is less then the autopay incentives.
