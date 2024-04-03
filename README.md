@@ -51,3 +51,26 @@ pv_expected_profit_ap = pv_expected_profit_ap# present value of expected profits
 clv_ap = np.cumsum(pv_expected_profit_ap)
 ```
 CLV for AutoPay Users: **1803.660201** | CLV for Non-AutoPay Users: **1553.722933**
+
+- Visualization of CLV trends over time
+```python 
+# created a single plot with 2-lines
+a = plt.plot(homealarm["no_autopay"], label="No-Autopay")
+a = plt.plot(homealarm["autopay"], label="Autopay")
+plt.legend()
+```
+- Analysis of retention rates for autopay and non-autopay customers.
+```python 
+# created a single plot with 2-lines
+b = plt.plot(retention_ap, label="Autopay")
+b = plt.plot(retention_nap, label="No-Autopay")
+plt.legend()
+```
+
+- Calculate the maximum amount to spend on autopay incentives
+```python 
+max_pay = homealarm["autopay"][95] - homealarm["no_autopay"][95]
+print(f"Maxium amount to spend on autopay incentives is {max_pay.round(2)}")
+```
+Maxium amount to spend on autopay incentives is 249.94
+
