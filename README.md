@@ -55,7 +55,9 @@ for i in range(len(expected_profit_ap)):
 pv_expected_profit_ap = pv_expected_profit_ap# present value of expected profits
 clv_ap = np.cumsum(pv_expected_profit_ap)
 ```
-CLV for AutoPay Users: **$1803.660201** | CLV for Non-AutoPay Users: **$1553.722933**
+> [!NOTE]  
+> CLV for AutoPay Users: **$1803.660201** | CLV for Non-AutoPay Users: **$1553.722933**
+
 
 - Visualization of CLV trends over time
 ```python 
@@ -84,10 +86,10 @@ plt.legend()
 max_pay = homealarm["autopay"][95] - homealarm["no_autopay"][95]
 print(f"Maxium amount to spend on autopay incentives is {max_pay.round(2)}")
 ```
-Maxium amount to spend on autopay incentives is $249.94
 
 > [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+> Maxium amount to spend on autopay incentives is $249.94
+
 ## Suggested marketing actions
 
 - <p align="justify">Door Bell can offer free 30 USD worth of days in its subscription for non-autopay customers who switch to autopay cutomers. For every year they complete under the autopay contract, they will recieve suitable number of days free corresponding to the dollar value of 30 USD. This strategy will help us in convincing the non-autopay customers to switch to autopay customers and also help us in retaining them. The total cost for this marketing campaign will come around to be (30 X 8) = 240 USD, which is less then the autopay incentives.</p>
