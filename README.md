@@ -67,6 +67,10 @@ a = plt.plot(homealarm["no_autopay"], label="No-Autopay")
 a = plt.plot(homealarm["autopay"], label="Autopay")
 plt.legend()
 ```
+<p align="center">
+  <img width="460" height="300" src="https://github.com/arnavv-agarwal/Customer-Lifetime-Value-Analysis-Door-Bell/blob/main/CLVAP.png">
+</p>
+
 - Analysis of retention rates for autopay and non-autopay customers.
 ```python 
 # created a single plot with 2-lines
@@ -74,6 +78,9 @@ b = plt.plot(retention_ap, label="Autopay")
 b = plt.plot(retention_nap, label="No-Autopay")
 plt.legend()
 ```
+<p align="center">
+  <img width="460" height="300" src="https://github.com/arnavv-agarwal/Customer-Lifetime-Value-Analysis-Door-Bell/blob/main/CLVR.png">
+</p>
 
 - Calculate the maximum amount to spend on autopay incentives
 ```python 
